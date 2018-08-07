@@ -7,7 +7,6 @@ tests/test.php
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Wow\EnterpriseWeChat\Config;
 use Wow\EnterpriseWeChat\Messages\Text;
 use Wow\EnterpriseWeChat\Connection\Token;
 

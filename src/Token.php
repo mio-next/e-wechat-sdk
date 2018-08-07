@@ -174,6 +174,6 @@ class Token
      */
     private function getCacheName()
     {
-        return $this->getCorpId() . "-" . self::CACHE_FILE;
+        return $this->getCorpId() . "-" . $this->getAgentId() . "-" . self::CACHE_FILE;
     }
 }

@@ -1,6 +1,8 @@
 {
-    "name": "enhe/enterprise-wechat",
+    "name": "wow-php/e-wechat-sdk",
+    "type": "library",
     "description": "enterprise wechat SDK",
+    "keywords": ["wechat", "weixin", "sdk"],
     "license": "MIT",
     "authors": [
         {

@@ -19,5 +19,7 @@
         "psr-4": {
             "Wow\\EnterpriseWeChat\\": "src/"
         }
-    }
+    },
+
+    "minimum-stability": "stable"
 }

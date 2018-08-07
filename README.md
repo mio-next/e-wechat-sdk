@@ -7,8 +7,8 @@ tests/test.php
 
 require __DIR__ . '/../vendor/autoload.php';
 
+use Wow\EnterpriseWeChat\Token;
 use Wow\EnterpriseWeChat\Messages\Text;
-use Wow\EnterpriseWeChat\Connection\Token;
 
 $token = (new Token('企业ID'))
     ->setAgentId('应用ID')

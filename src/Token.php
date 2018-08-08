@@ -96,6 +96,8 @@ class Token
      */
     public function getAccessToken($force = false)
     {
+        if ($force) return $this->getFromRemote();
+
         $accessToken = $this->getFromCache();
 
         return $accessToken ?: $this->getFromRemote();

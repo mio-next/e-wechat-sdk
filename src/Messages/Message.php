@@ -134,7 +134,7 @@ abstract class Message
      * @param string $type
      * @return $this
      */
-    public function setMessageType(string $type)
+    public function setMessageType($type)
     {
         $this->msgType = $type;
 
@@ -145,7 +145,7 @@ abstract class Message
      * @param int $agentId
      * @return $this
      */
-    public function setAgentId(int $agentId)
+    public function setAgentId($agentId)
     {
         $this->agentId = $agentId;
 
@@ -156,7 +156,7 @@ abstract class Message
      * @param string $token
      * @return $this
      */
-    public function setToken(string $token)
+    public function setToken($token)
     {
         $this->token = $token;
 
